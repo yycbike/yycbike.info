@@ -1,16 +1,8 @@
-Tangle.formats.dave_dollars = function (value) {
-	var string_thing = value.round(0).toString();
-	// for (i = 0; len(string_thing); i++) {
-	// 	console(i);
-	// };
-	return "$" + string_thing;
-}
-
 function setUpTangle () {
 
-        var element = document.getElementById("example");
+        var element = document.getElementById("pilot");
 
-        var tangle = new Tangle(element, {
+        var pilot = new Tangle(element, {
                 initialize: function () {
 
 			// Budget numbers

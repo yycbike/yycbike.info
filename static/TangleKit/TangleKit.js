@@ -277,7 +277,10 @@ Tangle.formats.freq = function (value) {
 };
 
 Tangle.formats.dollars = function (value) {
-    return "$" + value.round(0);
+	return value.toLocaleString('en-CA', {style: 'currency', currency: 'CAD', minimumFractionDigits: 0, maximumFractionDigits: 0});
+};
+Tangle.formats.dollars_cents = function (value) {
+	return value.toLocaleString('en-CA', {style: 'currency', currency: 'CAD'});
 };
 
 Tangle.formats.free = function (value) {
@@ -287,6 +290,9 @@ Tangle.formats.free = function (value) {
 Tangle.formats.percent = function (value) {
     return "" + (100 * value).round(0) + "%";
 };
+Tangle.formats.pretty_numbers = function (value) {
+	return value.round(0).toLocaleString('en-CA');
+}
 
 
     

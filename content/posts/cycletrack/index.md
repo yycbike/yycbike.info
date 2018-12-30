@@ -17,12 +17,12 @@ href="#citation_final_project"><sup>1</sup></a>. The spending according to the
 City of Calgary at the end of the pilot was {{< adjustable_number
 variable="cost_of_cycletrack" format="dollars" min="5e6" max="1e9" step="5e4"
 >}}, which is <span data-var="percentage_of_pilot_budget"
-data-format="percent"></span> of the cycle track budget
+data-format="percent"></span>&nbsp;of the cycle track budget
 
 If you look at the {{< adjustable_number variable="trips"
 format="pretty_numbers" min="1e6" max="1e9" step="1e4">}}&nbsp;trips done over
 the lifespan of the cycle track pilot project, you can see that this comes to
-<span data-var="cost_per_trip" data-format="dollars_cents"></span> spent per
+<span data-var="cost_per_trip" data-format="dollars_cents"></span>&nbsp;spent per
 trip.
 
 ## Safety

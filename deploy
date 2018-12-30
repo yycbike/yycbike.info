@@ -1,0 +1,1 @@
+hugo --minify && rsync -avz --delete public/ yycbikeinfo:yycbike.info

@@ -1,0 +1,20 @@
+baseURL = "https://yycbike.info/"
+languageCode = "en-us"
+title = "Information about #yycbike"
+Copyright = "2018 David Crosby"
+theme = "blackburn"
+
+[permalinks]
+  posts = "/:slug/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Cycletrack"
+    weight = 2
+    url = "/cycletrack/"

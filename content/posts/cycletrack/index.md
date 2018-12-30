@@ -19,9 +19,10 @@ variable="cost_of_cycletrack" format="dollars" min="5e6" max="1e9" step="5e4"
 data-format="percent"></span> of the cycle track budget
 
 If you look at the {{< adjustable_number variable="trips"
-format="pretty_numbers" min="1e6" max="1e9" step="1e4">}} trips done over the
-lifespan of the cycle track pilot project, you can see that this comes to
-<span data-var="cost_per_trip" data-format="dollars_cents"></span> spent per trip.
+format="pretty_numbers" min="1e6" max="1e9" step="1e4">}}&nbsp;trips done over
+the lifespan of the cycle track pilot project, you can see that this comes to
+<span data-var="cost_per_trip" data-format="dollars_cents"></span> spent per
+trip.
 
 ## Safety
 
@@ -42,9 +43,10 @@ variable="cost_of_airport_tunnel" format="dollars" min="25e7" max="1e9"
 step="5e5" >}}<a href="#exact_numbers"><sup>2</sup></a>.  Assuming the same
 dollar-per-trip construction value,<a
 href="#apples_to_oranges"><sup>3</sup></a> you would see <span
-data-var="num_airport_tunnel_trips" data-format="pretty_numbers"></span> trips, or
-roughly <span data-var="airport_tunnel_trips_per_day"
-data-format="pretty_numbers"></span> trips/day.<a
+data-var="num_airport_tunnel_trips"
+data-format="pretty_numbers"></span>&nbsp;trips, or roughly <span
+data-var="airport_tunnel_trips_per_day"
+data-format="pretty_numbers"></span>&nbsp;trips/day.<a
 href="#no_numbers_available"><sup>4</sup></a>
 
 ## Citations/Footnotes

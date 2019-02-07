@@ -34,7 +34,7 @@ adjustable_number variable="y2016_collisions_per_year" min="0" max="800" >}}<a
 href="#citation_final_project"><sup>1</sup></a>. Assuming a cost to the city of
 {{< adjustable_number format="dollars" variable="cost_per_collision" min="1e4"
 max="1e6" step="1e4" >}}<a href="#cost_per_collision"><sup>2</sup></a>, this
-comes to a savings of <span data-var="total_cost_of_collisions" data-format="dollars"></span> per
+comes to a savings of <span data-var="total_cost_of_collisions" data-format="dollars"></span>&nbsp;per
 year.
 
 ## Comparisons

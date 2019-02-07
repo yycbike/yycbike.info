@@ -18,3 +18,7 @@ theme = "blackburn"
     name = "Cycletrack"
     weight = 2
     url = "/cycletrack/"
+  [[menu.main]]
+    name = "Cool Links"
+    weight = 3
+    url = "/cool-links/"
